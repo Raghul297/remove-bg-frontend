@@ -1,0 +1,50 @@
+.bg-container {
+  background-image: url('./1.webp');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end; /* push to the right */
+  align-items: center;
+  padding-right: 5%; /* optional spacing from right edge */
+}
+
+.form-wrapper {
+  background-color: rgba(0, 0, 0, 0.6); /* optional: for contrast */
+  padding: 30px;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  width: 350px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+input[type="file"] {
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
