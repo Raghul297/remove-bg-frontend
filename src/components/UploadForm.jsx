@@ -31,7 +31,7 @@ const UploadForm = () => {
         if (!bgFile) return alert("Please upload a background image");
         formData.append('bg', bgFile);
 
-        const res = await fetch("http://13.60.221.0:8080/replace-bg", {
+        const res = await fetch("http://16.171.132.85:8080/replace-bg", {
           method: 'POST',
           body: formData,
         });
